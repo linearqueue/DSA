@@ -1,4 +1,4 @@
-//Bubble_Sort
+//Selection_Sort
 
 #include<iostream>
 using namespace std;
