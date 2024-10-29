@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Creating copy constructor
 class Car{
 public:
 	string name, color;
@@ -10,7 +11,7 @@ public:
 		this->color = color;
 	}
 
-	Car(Car &original)
+	Car(Car &original) //name of the class and pass with original keyword
 	{
 		cout<<"New constructor calling"<<endl;
 		name = original.name;
